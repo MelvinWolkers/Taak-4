@@ -1,0 +1,96 @@
+﻿body {
+    background-image: url(../Pic/Background.jpg);
+    background-position-x: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+}
+
+#Title {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 0;
+}
+
+    #Title::first-letter {
+        text-shadow: 10px 10px 2px #ff0000;
+        color: red;
+    }
+
+#Nav {
+    text-align: center;
+    margin-bottom: 5px;
+    border-bottom: 1px;
+    background-color: rgba(196, 196, 196, 0.75);
+    padding: 20px 0;
+    width: 105%;
+}
+
+#Current {
+    border-bottom: 5px solid black;
+    border-bottom-width: 10px;
+}
+
+#Nav a {
+    color: #d90000;
+    padding: 4px 10px 0px 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+   #Nav a:hover {
+        background-color: grey;
+        font-size: 26px;
+    }
+
+#Navlist {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#Me {
+    width: 60%;
+    height: auto;
+    margin: 10px 20%;
+    background-color: rgba(155, 155, 155, 0.65);
+    padding: 10px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+    #Me img {
+        width: 35%;
+        height: 35%;
+        float: left;
+        padding-right: 20px;
+        border-radius: 10px;
+    }
+
+    #Me ul {
+        list-style-type: none;
+    }
+
+    #Me p{
+        margin-top: 30px;
+    }
+
+        #Me p a {
+            color: #d90000;
+        }
+
+    #Me th img{
+        width: 10%;
+        height: 10%;
+        margin-left: 45%;
+   }
+
+    #Me th{
+        width: 20%;
+        text-align: center;
+    }
+
+    .Wat th{
+        width: 50%;
+    }
+
+
